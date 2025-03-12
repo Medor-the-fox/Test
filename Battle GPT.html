@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="Attaque.js"></script>
+    <link rel="stylesheet" href="Style.css">
+    <title>Battle</title>
+</head>
+
+<body>
+    <!-- Vie de l'ennemi -->
+    <div class="character">
+        <div class="name">Ennemi</div>
+        <div class="health-bar">
+            <div id="barEnnemi" class="health-fill"></div>
+        </div>
+        <div id="vieEnnemi">Vie = 130</div>
+        <img src="Coribe.gif" alt="Coribe">
+    </div>
+
+    <!-- Zone de combat -->
+    <div>
+        <img src="Decor.png" alt="Decor">
+        <img src="animation.gif" alt="animation">
+        <img src="Decor.png" alt="Decor">
+    </div>
+
+    <!-- Vie du joueur -->
+    <div class="character">
+        <div class="name">Joueur</div>
+        <div class="health-bar">
+            <div id="barJoueur" class="health-fill"></div>
+        </div>
+        <div id="vieJoueur">Vie = 150</div>
+        <img src="Darumafroid.gif" alt="Darumafroid">
+    </div>
+
+    <!-- Boutons d'attaque -->
+    <div class="buttons">
+        <button class="button" type="button" onclick="Va()">Vive Attaque</button>
+        <button class="button button2" type="button" onclick="Pic()">PicPic</button>
+        <button class="button button3" type="button" onclick="Charge()">Charge</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

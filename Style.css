@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to bottom, #1a1a40, #4a90e2);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+#vieJoueur, #vieEnnemi {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin: 10px;
+}
+
+
+.button {
+  background-color: #04AA6D; 
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 20px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} 
+.button3 {background-color: #f44336;}
+
+.health-bar {
+    width: 150px;
+    height: 20px;
+    background-color: #444;
+    border: 2px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.health-fill {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    transition: width 0.3s ease-in-out;
+}
+
+.character {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
